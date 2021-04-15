@@ -1,23 +1,24 @@
 {
-  "name": "awesome-react-native-video-controls",
-  "version": "1.0.7",
+  "name": "react-native-video-controls-subtitle",
+  "version": "1.0.0",
   "description":
-    "Editting some controls of react-native-video-controls and improve its functionality",
+    "Editting controls and subtitle of awesome-react-native-video-controls and improve its functionality",
   "license": "MIT",
   "main": "VideoPlayer.js",
   "keywords": [
     "react-native",
     "react-native-video",
     "react video controls",
-    "react video player"
+    "react video player",
+    "react native subtitle"
   ],
   "scripts": {
     "test": "echo \"No test specified\" && exit 1"
   },
-  "author": "Shahryar (https://github.com/sh-soltanpour)",
+  "author": "Victor (https://github.com/VictorFlm31)",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sh-soltanpour/react-native-video-controls.git"
+    "url": "https://github.com/VictorFlm31/react-native-video-controls.git"
   },
   "dependencies": {
     "lodash": "^4.16.4"

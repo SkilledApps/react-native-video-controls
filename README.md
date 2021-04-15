@@ -1,5 +1,5 @@
-# awesome-react-native-video-controls
-This package is forked from react-native-video-controls.
+# react-native-video-controls-subtitle
+This package is forked from awesome-react-native-video-controls.
 Enhance functionality for react native video Controls available at [react-native-video-controls](https://github.com/react-native-community/react-native-video-controls)
 ## Features
 **SUBTITLE SUPPORT ADDED** 
@@ -9,7 +9,7 @@ You can find other features in [react-native-video-controls] (https://github.com
 and [react-native-video](https://github.com/react-native-community/react-native-video) pages.
 
 ## Installation
-Run `npm install --save react-native-video awesome-react-native-video-controls`
+Run `npm install --save react-native-video react-native-video-controls-subtitle`
 
 Then run `react-native link react-native-video`
 
@@ -23,6 +23,15 @@ Then when you got the array of JSONs, you can pass this array to VideoPlayer as 
 ```javascript
 <VideoPlayer
    subtitle={this.props.subtitle}
+/>
+```
+
+##SUBTITLE STYLES
+In order to use custom styles :
+```javascript
+<VideoPlayer
+   subtitleContainerStyle={this.props.subtitleContainerStyle}
+   subtitleStyle={this.props.subtitleStyle}
 />
 ```
 
@@ -48,7 +57,7 @@ take a number of inputs to customize it as needed. They are outlined below:
 
 ```javascript
 // At the top where our imports are...
-import VideoPlayer from 'awesome-react-native-video-controls';
+import VideoPlayer from 'react-native-video-controls-subtitles';
 
 // in the component's render() function
 <VideoPlayer
