@@ -1,8 +1,8 @@
 {
   "name": "@SkilledApps/react-native-video-with-subtitles",
+  "private": "false",
   "version": "1.0.0",
-  "description":
-    "Editting controls and subtitle of awesome-react-native-video-controls and improve its functionality. Forked https://github.com/VictorFlm31/react-native-video-controls",
+  "description": "Editting controls and subtitle of awesome-react-native-video-controls and improve its functionality. Forked https://github.com/VictorFlm31/react-native-video-controls",
   "license": "MIT",
   "main": "VideoPlayer.js",
   "keywords": [
