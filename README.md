@@ -11,10 +11,8 @@ and [react-native-video](https://github.com/react-native-community/react-native-
 ## Installation
 Run `npm install --save react-native-video @skilled-apps/react-native-video-with-subtitles`
 
+If you are using RN<0.59
 Then run `react-native link react-native-video`
-
-If you're using RN < 39 run `npm install --save @skilled-apps/react-native-video-with-subtitles@1.0.0`. Note this version includes `react-native-video` as a normal dependency instead of a peer-dependency.
-
 
 ##SUBTITLE
 In order to use subtitles you should follow the below instructions :
@@ -57,7 +55,7 @@ take a number of inputs to customize it as needed. They are outlined below:
 
 ```javascript
 // At the top where our imports are...
-import VideoPlayer from 'react-native-video-controls-subtitles';
+import VideoPlayer from '@skilled-apps/react-native-video-with-subtitles';
 
 // in the component's render() function
 <VideoPlayer
