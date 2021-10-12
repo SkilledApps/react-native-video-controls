@@ -2,24 +2,24 @@
 This package is forked from awesome-react-native-video-controls.
 Enhance functionality for react native video Controls available at [react-native-video-controls](https://github.com/react-native-community/react-native-video-controls)
 ## Features
-**SUBTITLE SUPPORT ADDED** 
+**SUBTITLE SUPPORT ADDED**
 In This package, you can pass a function as 'toggleFullscreen' prop to component to control the functionality of toggle fullscreen button.
 
 You can find other features in [react-native-video-controls] (https://github.com/react-native-community/react-native-video-controls)
 and [react-native-video](https://github.com/react-native-community/react-native-video) pages.
 
 ## Installation
-Run `npm install --save react-native-video react-native-video-controls-subtitle`
+Run `npm install --save react-native-video @skilled-apps/react-native-video-with-subtitles`
 
 Then run `react-native link react-native-video`
 
-If you're using RN < 39 run `npm install --save react-native-video-controls@1.0.1`. Note this version includes `react-native-video` as a normal dependency instead of a peer-dependency.
+If you're using RN < 39 run `npm install --save @skilled-apps/react-native-video-with-subtitles@1.0.0`. Note this version includes `react-native-video` as a normal dependency instead of a peer-dependency.
 
 
-##SUBTITLE 
-In order to use subtitles you should follow the below instructions : 
+##SUBTITLE
+In order to use subtitles you should follow the below instructions :
 First if your subtitle format is srt you should convert it to JSON(use websites like : http://multiverso.me/srtToJSON/)
-Then when you got the array of JSONs, you can pass this array to VideoPlayer as below : 
+Then when you got the array of JSONs, you can pass this array to VideoPlayer as below :
 ```javascript
 <VideoPlayer
    subtitle={this.props.subtitle}
